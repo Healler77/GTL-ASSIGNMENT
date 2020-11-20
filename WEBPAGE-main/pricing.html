@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FlutterMe Beauty Hub</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.7.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<!--==============================header=================================-->
+<div class="header">
+  <div>
+    <div class="subpages-nav">
+      <nav>
+        <ul class="menu">
+          <li class="li-none"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li class="li-left li-none"><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Bookings</a></li>
+          <li class="current"><a href="contacts.html">Contacts</a></li>
+        </ul>
+        <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<!--==============================content================================-->
+<section id="content">
+  <div class="pad-1">
+  <script type="text/javascript">
+  // This identifies your website in the createToken call below
+  Stripe.setPublishableKey('pk_live_e56oISmbzNgUsSlHHf9JXCLI');
+  // ...
+</script>
+
+
+<!--- Tooltip player -->
+<script type='text/javascript'>
+  window.Tooltip||function(t,e){var o={
+  url:"https://cdn.tooltip.io/static/player.js",
+  key:"cba31f01-3221-4fe4-9d5c-154746c29427",
+  async:true
+ };
+
+  window.Tooltip={cs:[],_apiKey:o.key};for(
+  var r=["identify","goal","updateUserData","start","stop","refresh","show","hide","on"],
+  i={},n=0;n<r.length;n++){var a=r[n];i[a]=function(t){return function(){var e=Array.prototype.slice.call(arguments);
+  window.Tooltip.cs.push({method:t,args:e})}}(a)}window.Tooltip.API=i;var n=t.createElement(e),s=t.getElementsByTagName(e)[0];
+  n.type="text/javascript",n.async=o.async,s.parentNode.insertBefore(n,s),n.src=o.url}(document,"script");
+</script>
+<!--- Tooltip player -->
+    <script>
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+    analytics.load("Xd8qLQbmkSMswnfESbcXjdtjicjZZMzw");
+    }}();
+  </script>
+
+
+<div class="hide">
+
+</div>
+</head>
+
+<body id="customers-home" class="insertBookApp rmcloak" style="background-color:black ;">
+
+<script>
+$('#flash').delay(1000).fadeIn('normal', function() {
+$(this).delay(5000).fadeOut();
+});
+</script>
+
+
+<div class="container-fluid homeSection widget_booking_page">
+<div class="col-xs-12 col-sm-8 col-sm-offset-2" style="margin-top: 3%;">
+  <div class="row">
+      <div class="booking_widget_left_align booking_widget_company_name"><a class="text-uppercase" href="https://flutterme-beauty-hub.bookafy.com/">FlutterMe Beauty Hub</a></div>
+  </div>
+ <iframe src="https://flutterme-beauty-hub.bookafy.com//schedule?type=iframe" height="800" style="width: 100% !important;" frameBorder="0"> </iframe>
+</div>
+</div>
+</section>
+<!--==============================footer=================================-->
+<footer> <span><strong>FlutterMe © 2020 </footer>
+</body>
+</html>
